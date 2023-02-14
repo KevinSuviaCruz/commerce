@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="bg-white">
+  <header class="h-20 w-4/5 border-2 border-white border-b-grayish-blue mx-auto flex flex items-center">
+    <img class="h-5" src="/images/logo.svg" alt="imagen con el nombre del logo de la pagina">
+    <nav class="h-full w-4/5 m-6 flex">
+      <a class="p-6 text-dark-grayish-blue hover:font-bold border-4 hover:border-b-orange-500 border-white focus:outline-solid focus:border-b-orange-500 focus:font-bold"
+        href="#">Collections</a>
+      <a class="p-6 text-dark-grayish-blue hover:font-bold border-4 hover:border-b-orange-500 border-white focus:outline-solid focus:border-b-orange-500 focus:font-bold"
+        href="#">Men</a>
+      <a class="p-6 text-dark-grayish-blue hover:font-bold border-4 hover:border-b-orange-500 border-white focus:outline-solid focus:border-b-orange-500 focus:font-bold"
+        href="#">Women</a>
+      <a class="p-6 text-dark-grayish-blue hover:font-bold border-4 hover:border-b-orange-500 border-white focus:outline-solid focus:border-b-orange-500 focus:font-bold"
+        href="#">About</a>
+      <a class="p-6 text-dark-grayish-blue hover:font-bold border-4 hover:border-b-orange-500 border-white focus:outline-solid focus:border-b-orange-500 focus:font-bold"
+        href="#">Contact</a>
+    </nav>
+    <div class="flex items-center h-12">
+      <input class="h-6 mr-9" type="image" src="/images/icon-cart.svg">
+      <input class="h-12" type="image" src="/images/image-avatar.png" alt="">
+    </div>
+    <div class="bg-light-grayish-blue absolute top-16 w-96 h-60 newcontainer shadow-3xl rounded-lg">
+      <p class="p-3">Cart</p>
+      <div class="h-0.5 bg-gray-300"></div>
+      <p>Your cart is empty.</p>
+    </div>
+  </header>
+  <main class="conteinerx w-3/4 mx-auto mt-20 flex">
+    <section class="w-9/12">
+      <div class="w-4/5 h-full">
+        <img class="h-96 w-full rounded-lg" src="/images/image-product-1.jpg" alt="">
+        <div class="flex justify-between h-24 mt-7 w-full">
+          <input type="image"
+            class="w-1/5 rounded-lg hover:opacity-75 focus:outline-none focus:ring focus:ring-orange-500 focus:opacity-50"
+            src="/images/image-product-1-thumbnail.jpg" alt="">
+          <input type="image"
+            class="w-1/5 rounded-lg hover:opacity-75 focus:outline-none focus:ring focus:ring-orange-500 focus:opacity-50"
+            src="/images/image-product-2-thumbnail.jpg" alt="">
+          <input type="image"
+            class="w-1/5 rounded-lg hover:opacity-75 focus:outline-none focus:ring focus:ring-orange-500 focus:opacity-50"
+            src="/images/image-product-3-thumbnail.jpg" alt="">
+          <input type="image"
+            class="w-1/5 rounded-lg hover:opacity-75 focus:outline-none focus:ring focus:opacity-50 focus:ring-orange-500"
+            src="/images/image-product-4-thumbnail.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="w-9/12">
+      <div class="w-4/6 mt-16">
+        <p class="dax text-orange-x font-bold">Sneaker Company</p>
+        <h2 class="font-bold text-3xl py-3">Fall Limited Edition Sneakers</h2>
+        <p class="font-normal text-dark-grayish-blue text-sm pb-3">These low-profile sneakers are your perfect casual
+          wear
+          companion.
+          Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <p class="mt-3">
+          <span class="font-bold text-xl">$125.00</span>
+          <span class="bg-pale-orange p-1 rounded-md font-bold text-orange-x text-sm ml-1">50%</span>
+        </p>
+        <p class="text-grayish-blue">
+          <del>$250.00</del>
+        </p>
+        <div class="flex justify-between items-center mt-7">
+          <div class="xax bg-pale-orange flex justify-around h-10 items-center rounded-lg">
+            <button class="hover:opacity-75 active:opacity-100"><img src="/images/icon-minus.svg" alt=""></button>
+            <span>0</span>
+            <button class="hover:opacity-75 active:opacity-100"><img src="/images/icon-plus.svg" alt=""></button>
+          </div>
+          <button class="bg-orange-x w-3/5 h-10 rounded-lg flex items-center hover:opacity-75">
+            <div class="flex mx-auto">
+              <img class="mx-auto pr-4" src="/images/icon-cart-white.svg" alt="">
+              <p class="text-white">Add to cart</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<!-- active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 -->
+
+</html>
